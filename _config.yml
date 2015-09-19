@@ -1,0 +1,33 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+disqus: oktakspapa
+google_analytics: UA-67838455-1
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Papa's idea/thought
+
+description: Collection of "ideas/thought" generated from my Papa in family WhatsApp Group :D
+author:
+  name: oktak's Papa
+  email: overgander-away@yahoo.com.hk
+  github: oktak
+  twitter: ssms54
+  Xpinterest: ooo000NIL000ooo
+  Xlinkedin: ooo000NIL000ooo
+  bio: Made in 50s, Papa of his son(his greatest achievement)
+  email_md5: 6f626ef77e5236d2fbcc7e940a4135fe
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH: /papa-blog
